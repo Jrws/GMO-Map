@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GMOs World Map</title>
+    <link href="js/jqvmap-master/dist/jqvmap.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="map.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/jqvmap-master/dist/jquery.vmap.js"></script>
+    <script type="text/javascript" src="js/jqvmap-master/dist/maps/jquery.vmap.world.js" charset="utf-8"></script>
+    <script src="js/regions.js"></script>
+    <script src="js/gmomap.js"></script>
+  </head>
+  <body>
+    <div id="text">
+        <h1 id="name"></h1>
+        <ul id="info"></ul>
+    </div>
+    <div id="vmap"></div>
+    <div id="legend">
+      <ul id="boxes">
+        <li><span class="box" id="yellow"></span> GM crop grower</li>
+        <li><span class="box" id="orange"></span> Former GM crop grower</li>
+        <li><span class="box" id="white"></span> No GM crops</li>
+      </ul>
+    </div>
+  </body>
+</html>
