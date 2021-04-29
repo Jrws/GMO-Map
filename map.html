@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>GMOs World Map</title>
+    <title>GMOs - World Map</title>
     <link href="js/jqvmap-master/dist/jqvmap.css" media="screen" rel="stylesheet" type="text/css">
     <link href="map.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -12,10 +12,20 @@
   </head>
   <body>
     <div id="text">
-        <h1 id="name"></h1>
-        <ul id="info"></ul>
+        <h1 id="name">GMOs Around the World</h1>
+        <p id="grown"></p>
+        <img id="image" src="images/gmo_tomato.jpg">
+        <ul id="info">
+          <li>As of 2020, 22 different GM crops are grown in 41 countries around the world, and many countries import GMO products.</li>
+          <li>This is an informative and interactive map about GM crops in different countries.</li>
+          <li>Yellow countries grow GM crops commerically, orange countries used to grow them commercially, and white countries currently have no commerical GM crop cultivation.</li>
+          <li>Hover over the lightbulb to see which countries have information to learn about.</li>
+          <li>Click on a country to begin!</li>
+        </ul>
     </div>
     <div id="vmap"></div>
+    <img id="bulb" src="images/lightbulb.png">
+    <a id="sources" href="https://pdfhost.io/v/6PW8ue~2~_GMO_Map_References.pdf">Sources</a>
     <div id="legend">
       <ul id="boxes">
         <li><span class="box" id="yellow"></span> GM crop grower</li>
